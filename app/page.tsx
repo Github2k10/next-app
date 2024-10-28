@@ -1,4 +1,3 @@
-import { useState } from "react";
 
 export default async function Home() {
   const response = await fetch("http://localhost:3000/api/posts");
